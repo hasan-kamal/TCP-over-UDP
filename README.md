@@ -2,7 +2,7 @@
 
 ### Introduction
 - This is an implementation of a custom [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)-like reliable data transport protocol over [UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
-- We name this protocol `RDT` (for  __R&nbsp;__eliable  **D&nbsp;**ata  __T&nbsp;__ransport Protocol)
+- We name this protocol `RDT` (for  **R**eliable  **D**ata  **T**ransport Protocol)
 - Following functionalities have been added over UDP to make it reliable:
 	1. Single and cumulative `ACK`nowledgement
 	2. Sequence numbering
